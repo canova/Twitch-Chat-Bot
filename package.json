@@ -1,0 +1,16 @@
+{
+  "name"    : "Twitch-Bot",
+  "version" : "0.1.0",
+  "main"    : "index.js",
+  "description": "Twitch bot included built in irc client",
+  "dependencies": {
+    "irc": "^0.3.12",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.27"
+  },
+  "scripts": {
+    "start": "electron index.js"
+  }
+}

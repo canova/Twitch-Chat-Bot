@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitch Chat Bot - Settings</title>
+    <link rel="stylesheet" href="inc/css/reset.css">
+    <link rel="stylesheet" href="inc/css/main.css">
+    <script src="lib/app.js"></script>
+  </head>
+  <body onload="getSettings();">
+    
+    <!-- Header -->
+    <div id="header">
+    	<a href="javascript:void(0)" class="appTitle">Twitch Chat Bot - Settings</a>
+
+		<!-- Header Buttons -->
+    	<div class="buttons">
+            <a href="javascript:close();" id="close"></a>
+    		<a href="javascript:minimize();" id="minimize"></a>
+    	</div>
+    	<!-- //Header Buttons -->
+
+    </div>
+    <!-- //Header -->
+
+    <!-- Content -->
+    <div id="content">
+        <div class="settingsPage">
+            <form onsubmit="return submitSettings();">
+                <input type="text" id="username" name="username" placeholder="Username">
+                <input type="password" id="token" name="token" placeholder="OAuth Token">
+                <input type="text" id="channel" name="channel" placeholder="Channel">
+                <input type="submit" name="submit" value="Save">
+            </form>
+        </div>
+    </div>
+    <!-- //Content -->
+
+  </body>
+</html>
