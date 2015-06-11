@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitch Chat Bot - Add Comment</title>
+    <link rel="stylesheet" href="inc/css/reset.css">
+    <link rel="stylesheet" href="inc/css/main.css">
+    <script src="lib/app.js"></script>
+  </head>
+  <body onload="getSettings();">
+    
+    <!-- Header -->
+    <div id="header">
+    	<a href="javascript:void(0)" class="appTitle">Twitch Chat Bot - Add Comment</a>
+
+		<!-- Header Buttons -->
+    	<div class="buttons">
+            <a href="javascript:close();" id="close"></a>
+    		<a href="javascript:minimize();" id="minimize"></a>
+    	</div>
+    	<!-- //Header Buttons -->
+
+    </div>
+    <!-- //Header -->
+
+    <!-- Content -->
+    <div id="content">
+        <div class="sub addCommandPage">
+            <form onsubmit="return submitCommand();">
+                <input type="text" id="command" name="username" placeholder="Command">
+                <input type="text" id="description" name="channel" placeholder="Description">
+                <input type="text" id="output" name="channel" placeholder="Output">
+                <input type="text" id="interval" name="channel" placeholder="Interval (Optional)">
+                <input type="text" id="limit" name="channel" placeholder="Limit (Optional)">
+                <input type="text" id="argc" name="channel" placeholder="Argument Count (Optional)">
+                <input type="text" id="script" name="channel" placeholder="Script (Optional)">
+                <input type="submit" name="submit" value="Save">
+            </form>
+        </div>
+    </div>
+    <!-- //Content -->
+
+  </body>
+</html>

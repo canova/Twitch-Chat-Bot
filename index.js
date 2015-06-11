@@ -21,10 +21,11 @@
   // initialization and ready for creating browser windows.
   app.on('ready', function() {
     // Create the browser window.
-    mainWindow = new BrowserWindow({width: 950, height: 600, frame: false});
+    mainWindow = new BrowserWindow({width: 950, height: 600, frame: false, show: false});
 
     // and load the index.html of the app.
     mainWindow.loadUrl('file://' + __dirname + '/index.html');
+    mainWindow.show();
 
     // Emitted when the window is closed.
     mainWindow.on('closed', function() {
