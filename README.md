@@ -15,7 +15,7 @@ Under development right now.
 # Used Libraries
 
 * node-irc
-* jquery
+* jQuery
 
 
 Building
