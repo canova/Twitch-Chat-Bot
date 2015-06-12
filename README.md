@@ -7,6 +7,10 @@ It is very simple Twitch chat bot.
 
 Under development right now.
 
+Screenshot:
+
+![screenshot](screenshot.jpg)
+
 # Prerequisites
 
 * Node.js
