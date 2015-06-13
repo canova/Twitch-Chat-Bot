@@ -29,16 +29,14 @@
         <!-- //Alert Box -->
 
         <!-- addCommandPage -->
-        <div class="sub addCommandPage">
-            <form onsubmit="return submitCommand();">
-                <input type="text" id="command" name="command" placeholder="Command">
-                <input type="text" id="description" name="description" placeholder="Description">
-                <input type="text" id="output" name="output" placeholder="Output">
-                <input type="text" id="interval" name="interval" placeholder="Interval (Optional)">
-                <input type="text" id="limit" name="limit" placeholder="Limit (Optional)">
-                <input type="text" id="argc" name="argc" placeholder="Argument Count (Optional)">
-                <input type="text" id="script" name="script" placeholder="Script (Optional)">
-                <input type="submit" name="submit" value="Add Command">
+        <div class="sub pointSettings">
+            <form onsubmit="return submitPointSettings();">
+                <input type="text" id="pointName" name="pointName" placeholder="Point Name">
+                <input type="text" id="pointCommand" name="pointCommand" placeholder="Point Command">
+                <input type="text" id="speed" name="speed" placeholder="Point Gain Speed (Minutes)">
+                <input type="text" id="noPointOutput" name="noPointOutput" placeholder="No Points Output">
+                <input type="text" id="pointsOutput" name="pointsOutput" placeholder="Points Output">
+                <input type="submit" name="submit" value="Save Point Settings">
             </form>
         </div>
         <!-- //addCommandPage -->

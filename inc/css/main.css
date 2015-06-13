@@ -280,3 +280,14 @@ ul#centerLinks li.connect a:hover span {
     top: 50%;
     left: 50%;
 }
+
+
+/* Point Settings Page */
+#content .pointSettings {
+    width: 300px;
+    height: 360px;
+    margin: -180px 0 0 -150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

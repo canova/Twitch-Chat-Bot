@@ -1,8 +1,14 @@
 {
   "name"    : "Twitch-Bot",
   "version" : "0.1.0",
-  "main"    : "index.js",
   "description": "Twitch bot included built in irc client",
+  "main"    : "index.js",
+  "license" : "MIT",
+  "repository": "canaltinova/Twitch-Chat-Bot",
+  "author": {
+    "name": "Nazım Can Altınova",
+    "url": "canaltinova.com"
+  },
   "dependencies": {
     "irc": "^0.3.12",
     "jquery": "^2.1.4"
