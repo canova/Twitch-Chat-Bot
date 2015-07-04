@@ -3,7 +3,9 @@ body {
     font-family: 'tahoma';
 }
 
-/* Header */
+/**
+ ** HEADER
+ **/
 #header {
     width: 100%;
     height: 25px;
@@ -99,7 +101,9 @@ a#close:hover {
     background-color: #FC635E;
 }
 
-/* Content */
+/**
+ ** CONTENT
+ **/
 #content {
     width: 100%;
     height: 100%;
@@ -176,7 +180,9 @@ ul#centerLinks li.connect img {
     margin-left: 10px;
 }
 
-/* Tooltip */
+/**
+ ** TOOLTIP
+ **/
 ul#centerLinks li a span {
     width: 150px;
     height: 50px;
@@ -237,7 +243,9 @@ ul#centerLinks li.connect a:hover span {
     z-index: 999;
 }
 
-/* Settings Page */
+/**
+ ** SETTINGS PAGE
+ **/
 #content .settingsPage {
     width: 300px;
     height: 240px;
@@ -246,7 +254,6 @@ ul#centerLinks li.connect a:hover span {
     top: 50%;
     left: 50%;
 }
-
 
 #content .sub input {
     width: 270px;
@@ -281,8 +288,9 @@ ul#centerLinks li.connect a:hover span {
     left: 50%;
 }
 
-
-/* Point Settings Page */
+/**
+ ** POINT SETTINGS PAGE
+ **/
 #content .pointSettings {
     width: 300px;
     height: 360px;
