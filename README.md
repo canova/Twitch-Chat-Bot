@@ -3,20 +3,20 @@ Twitch Chat Bot
 
 Twitch IRC Bot for Chat, written in Javascript with Electron.
 
-It is very simple Twitch chat bot.
+It is a simple Twitch chat bot. Bot instructions will be provided soon.
 
-Under development right now.
+**This project is under development right now. Not recommended for end user! If you want to help the project feel free to fork it. PR's are welcomed!**
 
-Screenshot:
+## Screenshot
 
 ![screenshot](screenshot.jpg)
 
-# Prerequisites
+## Prerequisites
 
 * Node.js
 * Electron
 
-# Used Libraries
+## Used Libraries
 
 * node-irc
 * jQuery

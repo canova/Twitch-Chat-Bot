@@ -271,8 +271,8 @@ ul#centerLinks li.connect a:hover span {
 #content .sub input[type="submit"] {
     width: 300px;
     background: #1890D3;
-    cursor: pointer;
     border-bottom: 3px solid #116A9B;
+    cursor: pointer;
 }
 
 #content .sub input[type="submit"]:hover {
@@ -298,4 +298,68 @@ ul#centerLinks li.connect a:hover span {
     position: absolute;
     top: 50%;
     left: 50%;
+}
+
+/**
+ ** COMMAND LIST PAGE
+ **/
+ul#commandList {
+    width: 100%;
+    height: 97%;
+    overflow-y: scroll;
+    color: #333;
+    line-height: 19px;
+    overflow-x: hidden;
+}
+
+ul#commandList li {
+    width: 96%;
+    padding: 10px 2%;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+ul#commandList li:first-child {
+    margin-top: 0;
+}
+
+ul#commandList li:nth-child(2n) {
+    background: #BDC3C7;
+}
+
+ul#commandList li:nth-child(2n+1) {
+    background: #ececec;
+}
+
+ul#commandList li .left {
+    width: 48%;
+    padding-right: 2%;
+    float: left;
+}
+
+ul#commandList li .left div {
+    width: 100%;
+    max-width: 100%;
+}
+
+ul#commandList a.editBtn, ul#commandList a.deleteBtn {
+    width: 20px;
+    height: 20px;
+    background: url('../images/edit.png') no-repeat center center #1890D3;
+    background-size: 15px 15px;
+    padding: 5px 10px;
+    border-bottom: 3px solid #116A9B;
+    border-radius: 5px;
+    margin : 10px 10px 10px 0;
+    display: inline-block;
+    line-height: 30px;
+    color: #fff;
+    -webkit-transition: all 0.2s;
+            transition: all 0.2s;
+}
+
+ul#commandList a.deleteBtn {
+    background-image: url('../images/delete.png');
+    background-color: #F22613;
+    border-bottom: 3px solid #CF000F;
 }

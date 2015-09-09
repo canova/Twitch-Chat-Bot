@@ -25,7 +25,7 @@
 
     // and load the index.html of the app.
     mainWindow.loadUrl('file://' + __dirname + '/index.html');
-    mainWindow.show();
+    //mainWindow.show();
 
     // Emitted when the window is closed.
     mainWindow.on('closed', function() {

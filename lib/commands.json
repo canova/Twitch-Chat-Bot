@@ -1,78 +1,76 @@
 {
-	"commands": {
-		"facebook": {
-			"description": "Print facebook link",
-			"output": "Here's my facebook page! htpp://facebook.com/facebook-page",
-			"interval": 300,
-			"limit": 20
-		},
+	"facebook": {
+		"description": "Print facebook link",
+		"output": "Here's my facebook page! htpp://facebook.com/facebook-page",
+		"interval": 300,
+		"limit": 20
+	},
 
-		"twitter": {
-			"description": "Print twitter link",
-			"output": "Here's my twitter page! htpp://twitter.com/twitter-account",
-			"interval": 300,
-			"limit": 5
-		},
+	"twitter": {
+		"description": "Print twitter link",
+		"output": "Here's my twitter page! htpp://twitter.com/twitter-account",
+		"interval": 300,
+		"limit": 5
+	},
 
-		"hello": {
-			"description": "Says hello to sender",
-			"output": "Hello {name}!",
-			"interval": 300,
-			"limit": 5
-		},
+	"hello": {
+		"description": "Says hello to sender",
+		"output": "Hello {name}!",
+		"interval": 300,
+		"limit": 5
+	},
 
-		"rand": {
-			"description": "Gets a random number",
-			"output": "{0}",
-			"limit": 10,
-			"argc" : 1,
-			"scripts": ["Math.floor((Math.random() * {1}) + {0})"]
-		},
+	"rand": {
+		"description": "Gets a random number",
+		"output": "{0}",
+		"limit": 10,
+		"argc" : 1,
+		"scripts": ["Math.floor((Math.random() * {1}) + {0})"]
+	},
 
-		"ban": {
-			"description": "Bans a user",
-			"output": "/ban {0}",
-			"limit": 10,
-			"argc" : 1,
-			"scripts": ["{0}"]
-		},
+	"ban": {
+		"description": "Bans a user",
+		"output": "/ban {0}",
+		"limit": 10,
+		"argc" : 1,
+		"scripts": ["{0}"]
+	},
 
-		"unban": {
-			"description": "Bans a user",
-			"output": "/unban {0}",
-			"limit": 10,
-			"argc" : 1,
-			"scripts": ["{0}"]
-		},
+	"unban": {
+		"description": "Bans a user",
+		"output": "/unban {0}",
+		"limit": 10,
+		"argc" : 1,
+		"scripts": ["{0}"]
+	},
 
-		"subs": {
-			"description": "Subscribers only chat room mode",
-			"output": "/subscribers",
-			"limit": 10
-		},
+	"subs": {
+		"description": "Subscribers only chat room mode",
+		"output": "/subscribers",
+		"limit": 10
+	},
 
-		"subsoff": {
-			"description": "Subscribers only chat room mode off",
-			"output": "/subscribersoff",
-			"limit": 10
-		},
+	"subsoff": {
+		"description": "Subscribers only chat room mode off",
+		"output": "/subscribersoff",
+		"limit": 10
+	},
 
-		"comm": {
-			"description": "Start Commercials",
-			"output": "/commercial",
-			"limit": 300
-		},
+	"comm": {
+		"description": "Start Commercials",
+		"output": "/commercial",
+		"limit": 300
+	},
 
-		"r9k": {
-			"description": "r9kbeta room mode",
-			"output": "/r9kbeta",
-			"limit": 10
-		},
+	"r9k": {
+		"description": "r9kbeta room mode",
+		"output": "/r9kbeta",
+		"limit": 10
+	},
 
-		"r9koff": {
-			"description": "r9kbeta room mode off",
-			"output": "/r9kbetaoff",
-			"limit": 10
-		}
+	"r9koff": {
+		"description": "r9kbeta room mode off",
+		"output": "/r9kbetaoff",
+		"limit": 10
 	}
 }
